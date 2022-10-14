@@ -1,0 +1,16 @@
+ 
+sitive_or_negative.c:19: ERROR: space prohibited after that open parenthesis '('
+0-positive_or_negative.c:19: ERROR: space prohibited before that close parenthesis ')'
+0-positive_or_negative.c:19: ERROR: space required before the open parenthesis '('
+0-positive_or_negative.c:19: WARNING: braces {} are not necessary for any arm of this statement
+0-positive_or_negative.c:21: ERROR: that open brace { should be on the next line
+0-positive_or_negative.c:21: ERROR: space prohibited after that open parenthesis '('
+0-positive_or_negative.c:21: ERROR: space prohibited before that close parenthesis ')'
+0-positive_or_negative.c:21: ERROR: space required before the open parenthesis '('
+0-positive_or_negative.c:23: ERROR: that open brace { should be on the next line
+0-positive_or_negative.c:23: ERROR: space prohibited after that open parenthesis '('
+0-positive_or_negative.c:23: ERROR: space prohibited before that close parenthesis ')'
+0-positive_or_negative.c:23: ERROR: trailing statements should be on next line
+total: 12 errors, 1 warnings, 28 lines checked
+main
+
