@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * print_numbers - print 0123456789
- * only EngrBekee
- * Return: void
- */
+*print_numbers - print 0123456789
+* owned by Engr Bekee
+*Return: void
+*/
 
 void print_numbers(void)
 {
