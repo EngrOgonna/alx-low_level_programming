@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*print_numbers - print 0123456789
+*print_numbers - prnt numbers from 0-9
 *
-*Return: voidi
+*Return: void
 */
 
 void print_numbers(void)
