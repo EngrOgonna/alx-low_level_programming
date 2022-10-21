@@ -4,17 +4,23 @@
  * print_line - printing lines
  * @n: number of times
  *
- * Return: void
+ * Return: 0
  */
 
 
 void print_line(int n)
 {
-	int i;
+	int a = 0;
 
-	for (i = 0; i < n; i++)
+	if (n > 0)
 	{
-		_putchar('_');
+		while (a <= n)
+		{
+			_putchar('_');
+			a++;
+		}
+	 _putchar('\n');
 	}
+	else
 	_putchar('\n');
 }
