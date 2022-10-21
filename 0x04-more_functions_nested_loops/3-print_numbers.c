@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 *print_numbers - prnt numbers from 0-9
