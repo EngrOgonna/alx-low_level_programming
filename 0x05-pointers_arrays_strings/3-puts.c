@@ -8,11 +8,16 @@
  */
 void _puts(char *str)
 {
-	int c;
+	int count = 0;
 
-	for (c = 0; str[c] != 0; c++)
+	while (count >= 0)
 	{
-		_putchar(str[c]);
-	}
+	if (str[count] == '\0')
+	{
 	_putchar('\n');
+	break;
+	}
+	_putchar(str[count]);
+	count++;
+	}
 }
