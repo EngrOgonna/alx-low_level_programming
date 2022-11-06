@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase.
+ * main - prints the number of arguments passed into it
  *
- * Return: Always 0.
+ * @argc: argument counter
+ * @argv: argument vector
+ *
+ * Return: 0
  */
-int main(void)
+
+int main(int argc, char *argv[])
 {
-	char letter;
+	int c;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
-	putchar('\n');
+	for (c = 0; c < argc; c++)
+		printf("%s\n", argv[c]);
 
 	return (0);
 }
