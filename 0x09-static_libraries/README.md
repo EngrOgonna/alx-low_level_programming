@@ -1,1 +1,1 @@
-Goddey
+static library
