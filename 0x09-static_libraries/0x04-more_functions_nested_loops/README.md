@@ -1,1 +1,0 @@
-More of c-functions
