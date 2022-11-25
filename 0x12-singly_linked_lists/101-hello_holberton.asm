@@ -1,4 +1,4 @@
-extern	printf		; the C function, to be called
+	extern	printf		; the C function, to be called
 
 	        section .data		; Data section, initialized variables
 msg:		db "Hello, Holberton", 0 ; C string needs 0
@@ -19,9 +19,3 @@ main:					; the program label for the entry point
 
 		mov	rax,0		; normal, no error, return value
 		ret			; return
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
